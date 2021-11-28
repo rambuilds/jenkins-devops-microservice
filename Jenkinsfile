@@ -1,22 +1,22 @@
 
 //SCRIPTED PIPELINE
 //DECLARATIVE PIPELINE
-PIPELINE{
-	AGENT ANY
-	STAGES{
-		STAGE('Build'){
-			STEPS{
-				echo 'Build'
+pipeline{
+	agent any
+	stages{
+		stage('build'){
+			steps{
+				echo 'build'
 			}
 		}
-		STAGE('Test'){
-			STEPS{
-				echo 'Test'
+		stage('test'){
+			steps{
+				echo 'test'
 			}
 		}
-		STAGE('Integration Test'){
-			STEPS{
-				echo 'Integration Test'
+		stage('integration test'){
+			steps{
+				echo 'integration test'
 			}
 		}
 	}
