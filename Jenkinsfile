@@ -19,7 +19,8 @@ pipeline{
 				echo 'integration test'
 			}
 		}
-	} post {
+	} 
+	post{
 		always{
 			echo 'always'
 		}
