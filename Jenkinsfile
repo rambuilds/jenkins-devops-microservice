@@ -1,12 +1,7 @@
-node {
-	stage('Build') {
-		echo "Build"
-	}
-	stage('Test') {
-		echo "Test"
-	}
-	stage('Integration Test') {
-		echo "Test"
-	}
 
+//SCRIPTED PIPELINE
+node {
+		echo "Build"
+		echo "Test"
+		echo "Test"
 }
